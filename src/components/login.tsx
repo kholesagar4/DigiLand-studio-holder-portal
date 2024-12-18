@@ -7,7 +7,8 @@ const LoginForm: React.FC = () => {
     setAccountId(value);
   };
 
-  const handleLogin = () => {
+  const handleLogin = (event: any) => {
+    event.preventDefault();    
     if (accountId) {
       localStorage.setItem("accountId", accountId);
       window.location.href = "/dashboard";
