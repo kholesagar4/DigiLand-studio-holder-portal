@@ -120,7 +120,7 @@ const TokenDetails = () => {
               <div className="bg-gradient-to-tr from-blue-600 to-cyan-400 text-white p-12 m-8 rounded-lg shadow-lg flex flex-col items-center space-y-4">
                 <div className="flex items-center space-x-4">
                   <img
-                    src={"https://via.placeholder.com/48"}
+                    src="/landimage.jpeg"
                     alt={tokenDetails.symbol}
                     className="w-16 h-16 rounded-full border-4 border-white shadow-md"
                   />
@@ -158,11 +158,6 @@ const TokenDetails = () => {
                   <p className="text-lg mt-2">
                     <span className="font-semibold">Token Type:</span>{" "}
                     {tokenDetails.type}
-                  </p>
-                  <hr className="border-white my-2" />
-                  <p className="text-lg mt-2">
-                    <span className="font-semibold">Balance:</span>{" "}
-                    {accountBalances}
                   </p>
                 </div>
               </div>
