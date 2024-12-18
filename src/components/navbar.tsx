@@ -38,7 +38,7 @@ const Navbar = () => {
         )}
         <div className="flex items-center space-x-2">
           <img
-            src="https://via.placeholder.com/40"
+            src="/avatar-profile.png"
             alt="Profile"
             className="w-10 h-10 rounded-full border border-blue-300"
           />
