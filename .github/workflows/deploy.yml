@@ -37,7 +37,7 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "kholesagar4-digiland-st-62"
+          project: "digiland-holder"
           entrypoint: "server/entry.mjs"
           root: "dist"
           
